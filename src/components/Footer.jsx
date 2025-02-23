@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="upper-footer">
         <Container>
           <Row className='justify-content-between'>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="company-details">
                 <div className="logo">
                   <img src="https://fillerboy.com/img/logo-(2).png" alt="Logo" className='img-fluid' />
@@ -22,7 +22,7 @@ const Footer = () => {
                 <p>At FillerBoy, we're on a mission to revolutionize the world of industrial minerals. Our focus is simple - to create a unique and unparalleled experience for our customers.</p>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="resources">
                 <h2>Resources</h2>
                 <ul className='resource-list'>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="resources">
                 <h2>SUPPORT</h2>
                 <ul className='resource-list'>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="company-address">
                 <Link className="address-box">
                   <IoLocationOutline className="address-icon" />

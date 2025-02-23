@@ -84,7 +84,7 @@ const Home = () => {
         <div className="embody-excellence">
           <h2>Embody Excellence with Every Habit</h2>
           <Row>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="embody-box">
                 <div className="embody-img-head">
                   <div className="embody-img">
@@ -95,7 +95,7 @@ const Home = () => {
                 <p>At FillerBoy, quality is at the heart of everything we do. We're proud to be known as the top mineral supplier in India, and we never compromise on the exceptional standards we've set for ourselves.</p>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="embody-box">
                 <div className="embody-img-head">
                   <div className="embody-img">
@@ -106,7 +106,7 @@ const Home = () => {
                 <p>Fillerboy upholds the belief that superior industrial minerals should be universally accessible. We offer exceptional products at competitive prices, ensuring quality and affordability.</p>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="embody-box">
                 <div className="embody-img-head">
                   <div className="embody-img">
@@ -117,7 +117,7 @@ const Home = () => {
                 <p>With FillerBoy, possibilities are endless. Our wide product portfolio offers various industry-grade minerals, and our research and development team assists you in choosing optimally for your project.</p>
               </div>
             </Col>
-            <Col md={3}>
+            <Col md={6} lg={3}>
               <div className="embody-box">
                 <div className="embody-img-head">
                   <div className="embody-img">
@@ -133,7 +133,7 @@ const Home = () => {
         <div className="embody-excellence choose-us">
           <h2>WHY CHOOSE US</h2>
           <Row className='align-items-center'>
-            <Col md={6}>
+            <Col md={12} lg={6}>
               <div className="choose-us-left">
                 <h4>Innovative Mineral Solutions for your unique Industrial needs</h4>
                 <p>At Fillerboy Pvt. Ltd, we specialize in delivering customized mineral solutions to meet the unique needs of your industry. As a leading manufacturer and exporter of minerals like dolomite, calcite, china clay, and more, we cater to industries such as paint, cement, ceramics, rubber, pharmaceuticals, and more</p>
@@ -141,7 +141,7 @@ const Home = () => {
                 <p>Moreover, at Fillerboy Pvt. Ltd, we believe in innovation and continuous improvement. We invest in advanced technologies and research to enhance our product quality and diversify our offerings.</p>
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={12} lg={6}>
               <div className="choose-us-right">
                 <Row>
                   <Col md={12}>
@@ -186,7 +186,7 @@ const Home = () => {
           <h2>Here are major reasons why you can opt for our minerals</h2>
           <div className="opt-container">
             <Row>
-              <Col md={3}>
+              <Col md={6} lg={3}>
                 <div className="opt-box">
                   <div className="opt-img">
                     <img src="https://fillerboy.com/img/icon/upgrade.webp" alt="" className='img-fluid' />
@@ -194,7 +194,7 @@ const Home = () => {
                   <p>Upgraded Technology</p>
                 </div>
               </Col>
-              <Col md={3}>
+              <Col md={6} lg={3}>
                 <div className="opt-box">
                   <div className="opt-img">
                     <img src="https://fillerboy.com/img/icon/customer-service.webp" alt="" className='img-fluid' />
@@ -202,7 +202,7 @@ const Home = () => {
                   <p>Hassle-free Service</p>
                 </div>
               </Col>
-              <Col md={3}>
+              <Col md={6} lg={3}>
                 <div className="opt-box">
                   <div className="opt-img">
                     <img src="https://fillerboy.com/img/icon/quality.webp" alt="" className='img-fluid' />
@@ -210,7 +210,7 @@ const Home = () => {
                   <p>Incomparable Quality</p>
                 </div>
               </Col>
-              <Col md={3}>
+              <Col md={6} lg={3}>
                 <div className="opt-box">
                   <div className="opt-img">
                     <img src="https://fillerboy.com/img/icon/client.webp" alt="" className='img-fluid' />
@@ -265,7 +265,7 @@ const Home = () => {
           </Row>
         </div>
 
-        <div className="embody-excellence raw-materials">
+        <div className="embody-excellence press-media">
           <h2>Press & Media</h2>
           <div className="press-slider">
             <Slider {...settings}>
